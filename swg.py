@@ -2,7 +2,12 @@
 
 import random
 
-print("""Snake Water Gun
+print("""
+ ______        ______
+/ ___\ \      / / ___|
+\___ \\\ \ /\ / | |  _
+ ___) |\ V  V /| |_| |
+|____/  \_/\_/  \____|
 V.1.1""")
 
 options = ["Snake", "Water", "Gun"]
@@ -72,13 +77,13 @@ while (n<=t):
             print("You have entered wrong value. Try again.")
             continue
 print(f"""\n-------------------
-| Computer | User |
+| COMPUTER | YOU  |
 -------------------
 |   {c}      |   {u}  |
 -------------------""")
-if u > c:
+if (u > c):
     print("\n YOU WON")
-elif u==c:
+elif (u==c):
     print("\nDraw")
 else:
     print("\n YOU LOOSE")
